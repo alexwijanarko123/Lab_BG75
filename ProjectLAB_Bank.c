@@ -167,22 +167,6 @@ void loginAccount(void){
     ;
 }
 
-	void loginsucess(void){
-	int i;
-	FILE* fp;
-	struct pass u1;
-	system("cls");
-	printf("Fetching account details.....\n");
-	for (i = 0; i < 20000; i++) {
-		i++;
-		i--;
-	}
-
-	printf("LOGIN SUCCESSFUL....\n");
-	printf("Press enter to continue\n");
-
-	getch();
-}
 void display(char username1[])
 {
 	system("cls");
